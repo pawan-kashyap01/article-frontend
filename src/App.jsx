@@ -10,8 +10,8 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/article/:id" element={<ViewArticle />}/>
-        <Route path="/" element={<Layout />}/>
-          <Route index element={<Home />} />
+        <Route path="/articles" element={<Home />}/>
+          <Route index element={<Layout />} />
           <Route exact path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>

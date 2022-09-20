@@ -39,7 +39,7 @@ const ViewArticle = (props) => {
 
   return (
     <div>
-      <button><Link to="/">Home</Link></button>
+      <button><Link to="/articles">Back</Link></button>
       <h1 > {article.id}. {article.heading}  </h1>
         <p>  {article.content}</p>
         <p>  Published: {article.created_at}</p>

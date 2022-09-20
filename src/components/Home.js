@@ -43,8 +43,9 @@ function Home() {
     <div >
     <button><Link to="/">Home</Link></button>
         <form onSubmit = {handleCreateArticle}>
-          <input type="text" placeholder="Heading" name="heading" onChange= {(e) => handleChange(e)}  />
-          <input type="text" placeholder="Write content here.." name="content" onChange= {(e) => handleChange(e)} />
+          <br />
+          <input type="text" placeholder="Heading" name="heading" onChange= {(e) => handleChange(e)}  /><br />
+          <input type="text" placeholder="Write content here.." name="content" onChange= {(e) => handleChange(e)} /><br />
           <button type = 'submit'> Create Article </button>
         </form>
         <p>------------------------------------------------</p>
